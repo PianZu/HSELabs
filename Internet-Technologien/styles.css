@@ -1,0 +1,160 @@
+html, body {
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/animebackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.minesweeper-container {
+    width: 60vw;
+    max-width: 450px;
+    height: 70vh;   
+    margin: auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    font-size: large;
+    padding: 15px;
+    height: 15vh;
+    background-image: url('images/animemine.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;  
+    background-color: #93b1aa;
+}
+
+.sign {
+    font-size: 10px;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.playfield {
+    display: grid;
+    background-color: #bbb;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%; 
+    height: 100%;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bcd5d6;
+    box-shadow: 
+    inset 3px -3px 1px rgba(33, 33, 33, 0.6), 
+    inset -3px 3px 1px rgba(255, 255, 255, 0.8);
+}
+
+.mine {
+    background-color: #bdbdbd;
+    background-image: url('images/symbols.svg');
+    background-size: 1000% 100%;
+    background-position: 99%;
+    box-shadow: none;
+}
+
+.flag {
+    background-image: url('images/symbols.svg');
+    background-size: 1000% 100%;
+    background-position: 88%;
+}
+
+.cell.revealed {
+    background-color: #bdbdbd; 
+    color: black; 
+    box-shadow: none;
+}
+
+.one {
+    background-image: url('images/symbols.svg');
+    background-size: 1000% 100%;
+    background-position: 0%;
+}
+
+.two {
+    background-image: url('images/symbols.svg');
+    background-size: 1000% 100%;
+    background-position: 11%;
+}
+
+.three {
+    background-image: url('images/symbols.svg');
+    background-size: 1000% 100%;
+    background-position: 22%;
+}
+
+.four {
+    background-image: url('images/symbols.svg');
+    background-size: 1000% 100%;
+    background-position: 33%;
+}
+
+.five {
+    background-image: url('images/symbols.svg');
+    background-size: 1000% 100%;
+    background-position: 44%;
+}
+
+.six {
+    background-image: url('images/symbols.svg');
+    background-size: 1000% 100%;
+    background-position: 55%;
+}
+
+.seven {
+    background-image: url('images/symbols.svg');
+    background-size: 1000% 100%;
+    background-position: 66%;
+}
+
+.eight {
+    background-image: url('images/symbols.svg');
+    background-size: 1000% 100%;
+    background-position: 77%;
+}
+
+.button {
+    display: flex;
+    height: 5vh;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #c4cccf;
+}
+
+.footer-button {
+    width: 10vw;
+    max-width: fit-content;
+    height: 4vh;
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    font-size: 70%; 
+}
+
+.footer {
+    height: 10vh; 
+    background-color: #93b1aa;
+}
+
+.cell:hover, .footer-button:hover {
+    background-color: #ccc;
+}
