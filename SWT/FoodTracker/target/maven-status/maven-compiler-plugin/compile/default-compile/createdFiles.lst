@@ -1,0 +1,10 @@
+src\main\java\com\nutritiapp\Statistics.class
+src\main\java\com\nutritiapp\Meal.class
+src\main\java\com\nutritiapp\MealRepository.class
+src\main\java\com\nutritiapp\Application.class
+src\main\java\com\nutritiapp\Rating.class
+src\main\java\com\nutritiapp\MainView.class
+src\main\java\com\nutritiapp\StatisticsService.class
+com\nutritiapp\GreetService.class
+src\main\java\com\nutritiapp\MealService.class
+src\main\java\com\nutritiapp\RatingService.class

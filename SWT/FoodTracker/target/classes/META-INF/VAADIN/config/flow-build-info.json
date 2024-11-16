@@ -1,0 +1,11 @@
+{
+  "compatibilityMode": false,
+  "productionMode": false,
+  "npmFolder": "C:\\Users\\luanc\\git\\SWT-ProjectScrum",
+  "generatedFolder": "C:\\Users\\luanc\\git\\SWT-ProjectScrum\\target\\frontend",
+  "frontendFolder": "C:\\Users\\luanc\\git\\SWT-ProjectScrum\\frontend",
+  "pnpm.enable": false,
+  "require.home.node": false,
+  "node.version": "v14.21.3",
+  "node.download.root": "https://nodejs.org/dist/"
+}
